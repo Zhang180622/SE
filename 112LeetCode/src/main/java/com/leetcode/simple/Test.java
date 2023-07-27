@@ -19,9 +19,14 @@ public class Test {
         logger.info(solution1.twoSumV1(nums4,target4)[0] + " " + solution1.twoSumV1(nums4,target4)[1]);
         logger.info(solution1.twoSumV2(nums4,target4)[0] + " " + solution1.twoSumV2(nums4,target4)[1]);*/
 
-        Solution9 solution9 = new Solution9();
+/*        Solution9 solution9 = new Solution9();
         int x = 121;
-        logger.info(String.valueOf(solution9.isPalindromeV5(x)));
+        logger.info(String.valueOf(solution9.isPalindromeV5(x)));*/
+
+        String a = "aA";
+        String b = "aAAbbbb";
+        Solution771 solution771 = new Solution771();
+        System.out.println(solution771.numJewelsInStones(a,b));
 
     }
 }
